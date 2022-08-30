@@ -1,0 +1,91 @@
+.site-header {
+    background-color: rgba(0, 0, 0, .85);
+    color: #999;
+    transition: ease-in-out color .15s;
+}
+
+a {
+    color: #999;
+    text-decoration: none;
+}
+
+#logo {
+    width: 34px;
+    height: 34px;
+}
+
+.box-shadow {
+    box-shadow: 0 0.25rem 0.75rem rgb(0 0 0 / 5%);
+}
+
+.bgg {
+    background: url("/src/bggg1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fs {
+    font-size: 18px;
+}
+
+#form {
+    border-radius: 20px;
+    /* box-shadow: 1px 0px 2px 4px pink; */
+    width: 24%;
+    height: 44%;
+    position: absolute;
+    left: 37%;
+    top: 33%;
+    /* z-index: 0; */
+    background: #999;
+    
+}
+.animate{
+    animation: shake 0.5s; 
+}
+
+#bgdark:hover{
+    animation: zoom 1.8s; 
+    /* transition: 0.5s all ease-in-out;  */
+}
+#bglight:hover{
+    animation: zoom 1.8s; 
+    /* transition: 0.5s all ease-in-out;  */
+}
+.bg{
+    background: #fca1a0;
+    
+}
+
+#carouselExampleIndicators{
+    width: 80%;
+    height: 300px;
+    border-radius: 21px 21px;
+}
+.carouselmargin{
+    margin-left: 64px;
+    margin-bottom: 10px;
+}
+
+.quotes{
+    margin: 10px 30px;
+}
+
+
+@keyframes zoom{
+    0% {transform: scale(1.0);}
+    10% {transform: scale(1.1);}
+}
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
